@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  background-color:rgba(231, 224, 224, 0.836);
+}
+#header{
+  background-color: purple;
+}
