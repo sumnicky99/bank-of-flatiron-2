@@ -2,16 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +26,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+.header{
+  background-color: blue;
+  color:azure;
+  border-radius: 5px;
+  width: 1300px;
+  margin-left:50px;
+  margin-right:50px;
+}
+.search{
+  width: 1300px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:50px;
+  margin-right:50px;
+}
+.input{
+  margin-right: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* In your CSS file or styles component */
+
+table {
+  width: 100%; /* Make the table span the entire width of its container */
+  border-collapse: collapse; /* Collapse table borders for a cleaner look */
+}
+
+th, td {
+  padding: 8px; /* Add padding to table cells for spacing */
+  text-align: left; /* Align text to the left in table cells */
+  border-bottom: 1px solid #ddd; /* Add bottom border to table cells */
+}
+
+th {
+  background-color: #f2f2f2; /* Add background color to table header cells */
+}
+
+tr:hover {
+  background-color: #f2f2f2; /* Change background color of table rows on hover */
 }
